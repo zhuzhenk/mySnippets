@@ -1,3 +1,3 @@
-# My Awesome Book
+# My Snippets
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+保存了常用的代码片段，找的时候方便
