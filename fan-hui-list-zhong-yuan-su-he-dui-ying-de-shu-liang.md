@@ -15,6 +15,7 @@ public static <T> List<List<T>> pack(List<T> list) {
 }
 
 P09.pack(list).stream().map(l -> new SimpleEntry<>(l.size(), l.get(0))).collect(toList());
+//应该是可以写汉字的
 ```
 
 
