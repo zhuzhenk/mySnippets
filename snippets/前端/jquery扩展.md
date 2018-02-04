@@ -24,6 +24,9 @@ $.tale.prototype.alertOk = function (options) {
     options.type = 'success';
     this.alertBox(options);
 };
+
+
+var tale = new $.tale(); 这样调用
 ```
 
 
