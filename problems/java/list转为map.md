@@ -30,6 +30,7 @@ public static Map<String,List<PageData>> list2Map (List list, String classify){
     return (Map<String,List<PageData>>) list.stream().collect(Collectors.groupingBy(e -> ((PageData) e).getString(classify)));
 
 }
+嗯
 ```
 
 
