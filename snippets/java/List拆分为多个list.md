@@ -16,5 +16,11 @@ public static List<List<PageData>> createList(List<PageData> targe,int size) {
     }
 ```
 
+```
+分组数(targe.size()+size-1)/size; //i+1==arrSize 判断是否为最后一组，因为i是从零开始的，所以加一
+循环队列有这么一个算法 rearAfter=（rear+1)%数组长度  rear元素移动一个元素之后的位置，保证不会超过数组长度，可以循环
+
+```
+
 
 
