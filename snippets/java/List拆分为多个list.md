@@ -26,5 +26,12 @@ public static List<List<PageData>> createList(List<PageData> targe,int size) {
 //动态队列，使用两个指针head和end来控制，列表头部是链表的头部
 ```
 
+```
+数组是连续存储线性结构
+链表是离散存储线性结构
+二叉树是非线性数据结构
+
+```
+
 
 
