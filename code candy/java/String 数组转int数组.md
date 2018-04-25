@@ -2,7 +2,7 @@
 1.String ids = pd.get("ids", String.class);
     if(StringUtils.isNotEmpty(ids)){
       int[] idArr = Arrays.stream(ids.split(",")).mapToInt(e -> Integer.parseInt(e)).toArray();
-    
+
 2.
 public static int[] stringToIntegers(String numbers) {
         return Arrays.stream(numbers.split(" ")).mapToInt(Integer::parseInt).toArray();
@@ -17,8 +17,6 @@ public static int[] stringToIntegers(String numbers) {
             #{id}
         </foreach>
         and is_publish = 0
-        
-        
 ```
 
 
